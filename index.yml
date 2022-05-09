@@ -1,0 +1,25 @@
+<?php 
+ 
+ Translate::lookup();
+ 
+ class Translate
+ 
+ {
+	 const english = 0;
+	 const spanish = 1;
+	 const french = 2;
+	 const german = 3;
+
+	 static function lookup()
+	 {
+		 echo self::english;
+		 echo self::french;
+
+	 }
+
+ 
+
+	 
+ }
+   
+ ?>
